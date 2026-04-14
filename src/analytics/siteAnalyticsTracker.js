@@ -43,12 +43,12 @@ function setStoredValue(storage, key, value) {
   }
 }
 
-async function postTracking(payload, { includeAuth = false, keepalive = false } = {}) {
+async function postTracking(payload, { keepalive = false } = {}) {
   const headers = {
     'Content-Type': 'application/json',
   };
 
-  const accessToken = includeAuth ? getAccessToken() : '';
+  const accessToken = getAccessToken();
   if (accessToken) {
     headers.Authorization = `Bearer ${accessToken}`;
   }
@@ -328,7 +328,7 @@ class SiteAnalyticsTracker {
 
     if (final) {
       try {
-        await postTracking(snapshot.payload, { includeAuth: false, keepalive: true });
+        await postTracking(snapshot.payload, { keepalive: true });
       } catch {
         // Best effort only on final flush.
       }
@@ -338,9 +338,7 @@ class SiteAnalyticsTracker {
     this.syncInFlight = true;
 
     try {
-      const response = await postTracking(snapshot.payload, {
-        includeAuth: snapshot.includeAuth,
-      });
+      const response = await postTracking(snapshot.payload);
 
       if (!response.ok) {
         throw new Error(`Analytics sync failed with status ${response.status}`);
