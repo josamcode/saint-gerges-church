@@ -20,7 +20,7 @@ export default function AuthLayout() {
         <div className="text-center mb-8">
           <Link to="/" className="inline-flex flex-col items-center gap-2">
             <div className="w-14 h-14 rounded-xl flex items-center justify-center">
-              <img src='/logo.PNG' />
+              <img src='/logo.png' />
             </div>
             <div>
               <h1 className="text-xl font-bold text-heading">كنيسة مار جرجس بسيلة الغربية</h1>

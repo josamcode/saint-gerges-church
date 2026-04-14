@@ -92,7 +92,7 @@ export default function PublicLayout() {
                 : 'bg-white/10 text-primary backdrop-blur-sm'
                 } group-hover:bg-primary group-hover:text-white group-hover:shadow-lg group-hover:shadow-primary/25`}
             >
-              <img src='/logo.PNG' />
+              <img src='/logo.png' />
             </div>
             <div className="hidden sm:block">
               <span className="font-extrabold text-heading text-sm leading-tight block">
@@ -165,7 +165,7 @@ export default function PublicLayout() {
             <div className="flex items-center justify-between p-5 border-b border-border">
               <div className="flex items-center gap-2.5">
                 <div className="flex h-9 w-9 items-center justify-center rounded-xl text-primary">
-                  <img src='/logo.PNG' />
+                  <img src='/logo.png' />
                 </div>
                 <span className="font-extrabold text-heading text-sm">{brandPrimary}</span>
               </div>
@@ -231,7 +231,7 @@ export default function PublicLayout() {
             <div className="sm:col-span-2 lg:col-span-1">
               <div className={`flex items-center gap-2.5 mb-4 ${isRTL ? 'flex-row-reverse justify-end' : ''}`}>
                 <div className="flex h-10 w-10 items-center justify-center rounded-xl text-primary">
-                  <img src='/logo.PNG' />
+                  <img src='/logo.png' />
                 </div>
                 <div>
                   <span className="font-extrabold text-heading text-sm block">{brandPrimary}</span>
