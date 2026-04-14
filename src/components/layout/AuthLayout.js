@@ -23,7 +23,7 @@ export default function AuthLayout() {
               <img src='/logo.PNG' />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-heading">كنيسة الملاك ميخائيل بالقطوشة</h1>
+              <h1 className="text-xl font-bold text-heading">كنيسة مار جرجس بسيلة الغربية</h1>
               <p className="text-xs text-muted">{t('auth.authLayoutSubTitle')}</p>
             </div>
           </Link>

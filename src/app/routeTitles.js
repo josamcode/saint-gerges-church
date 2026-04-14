@@ -350,7 +350,7 @@ const TITLE_ROUTES = [
     pattern: '/',
     key: 'routeTitles.landing',
     fallback: 'St. Michael Church',
-    fallbackAr: 'كنيسة الملاك ميخائيل بالقطوشة',
+    fallbackAr: 'كنيسة مار جرجس بسيلة الغربية',
   },
 ];
 
@@ -380,7 +380,7 @@ export function buildDocumentTitle(pageTitle, t, language) {
     language,
     'common.appName',
     'St. Michael Church',
-    'كنيسة الملاك ميخائيل بالقطوشة'
+    'كنيسة مار جرجس بسيلة الغربية'
   );
 
   if (!pageTitle || pageTitle === appName) {
