@@ -16,7 +16,7 @@ import { useI18n } from '../../i18n/i18n';
 import { useLandingPublicContent } from '../../hooks/useLandingContent';
 import { getLocalizedValue } from '../../utils/landingContent';
 
-const DEFAULT_DIRECTIONS_URL = 'https://maps.app.goo.gl/g24SscQHQKMYSq6M9';
+const DEFAULT_DIRECTIONS_URL = 'https://maps.app.goo.gl/6GFaNPKr3HLhJheq5';
 
 const SOCIAL_META = {
   facebook: {
@@ -50,7 +50,7 @@ const SOCIAL_META = {
 };
 
 function buildDefaultMapEmbedUrl(placeName) {
-  return `https://maps.google.com/maps?ll=28.3705542%2C30.6619377&q=${encodeURIComponent(placeName)}&z=18&t=k&output=embed`;
+  return `https://maps.google.com/maps?ll=28.4245115%2C30.6821544&q=${encodeURIComponent(placeName)}&z=18&t=k&output=embed`;
 }
 
 /* ════════════════════════════════
