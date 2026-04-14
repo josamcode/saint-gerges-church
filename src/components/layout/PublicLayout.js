@@ -299,12 +299,18 @@ export default function PublicLayout() {
             <p className="text-xs text-muted/40 flex items-center gap-1">
               {text('publicLayout.footerCreditPrefix')}{' '}
               <a
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                {t('publicLayout.footerCreditName')}
+              </a>{' '}
+              <a
                 href="https://josam-portfolio.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
               >
-                {t('publicLayout.footerCreditName')}
+                {t('publicLayout.footerCreditName2')}
               </a>{' '}
               {text('publicLayout.footerCreditSuffix')}
             </p>
