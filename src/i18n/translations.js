@@ -1,7 +1,7 @@
 ﻿export const translations = {
   en: {
     common: {
-      appName: 'St. Michael Church',
+      appName: 'Saint Gerges Church',
       placeholder: {
         empty: '---',
       },
@@ -77,8 +77,8 @@
       rightsReserved: 'All rights reserved',
     },
     publicLayout: {
-      brandPrimary: 'Archangel Michael Church',
-      brandSecondary: 'El Qatousha Village - Matay Diocese',
+      brandPrimary: 'St. Gerges Church, Basila Al-Gharbiya',
+      brandSecondary: 'Sila Al-Gharbiya Village – affiliated with the Diocese of Matay',
       home: 'Home',
       about: 'Our Church',
       priests: 'Priests',
@@ -101,7 +101,7 @@
     },
     landing: {
       hero: {
-        badge: 'Archangel Michael Church',
+        badge: 'Saint Gerges Church',
         title: 'A Living Church Family in',
         highlight: 'Faith, Love, and Service',
         description:
@@ -121,7 +121,7 @@
         title: 'A Church Home for Every Family',
         subtitle: 'Rooted in the Gospel, we gather as one body to worship, serve, and grow together.',
         description:
-          'Archangel Michael Church serves families with liturgical life, discipleship, and pastoral care. Our doors are open for children, youth, parents, and elders to live a practical spiritual life centered on Christ.',
+          'Saint Gerges Church serves families with liturgical life, discipleship, and pastoral care. Our doors are open for children, youth, parents, and elders to live a practical spiritual life centered on Christ.',
         missionLabel: 'Our Mission',
         missionText: 'To guide every person toward Christ through worship, discipleship, and compassionate service.',
         visionLabel: 'Our Vision',
@@ -215,7 +215,7 @@
         phoneLabel: 'Phone',
         phoneValue: '+20 100 000 0000',
         emailLabel: 'Email',
-        emailValue: 'info@archangelmichaelchurch.org',
+        emailValue: 'stgeorgechurchsila@gmail.com',
         hoursLabel: 'Office & Service Hours',
         hoursValue: 'Daily: 9:00 AM - 8:00 PM',
       },
@@ -3094,7 +3094,7 @@
         phoneLabel: 'الهاتف',
         phoneValue: '+20 100 000 0000',
         emailLabel: 'البريد الإلكتروني',
-        emailValue: 'info@archangelmichaelchurch.org',
+        emailValue: 'stgeorgechurchsila@gmail.com',
         hoursLabel: 'مواعيد المكتب والخدمات',
         hoursValue: 'يوميًا: 9:00 ص - 8:00 م',
       },

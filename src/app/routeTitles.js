@@ -349,7 +349,7 @@ const TITLE_ROUTES = [
   {
     pattern: '/',
     key: 'routeTitles.landing',
-    fallback: 'St. Michael Church',
+    fallback: 'Saint Gerges Church',
     fallbackAr: 'كنيسة مار جرجس بسيلة الغربية',
   },
 ];
@@ -379,7 +379,7 @@ export function buildDocumentTitle(pageTitle, t, language) {
     t,
     language,
     'common.appName',
-    'St. Michael Church',
+    'Saint Gerges Church',
     'كنيسة مار جرجس بسيلة الغربية'
   );
 
